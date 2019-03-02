@@ -221,8 +221,15 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .navbar-brand .logo, .navbar-brand .logo-alt {
-    max-height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
     display: block;
+    color: #6195FF;
+}
+
+.navbar-brand .logo {
+    color: #000;
 }
 
 #nav:not(.nav-transparent):not(.fixed-nav) .navbar-brand .logo-alt {
@@ -1413,7 +1420,8 @@ header {
     margin-bottom: 40px;
 }
 
-.footer-logo>a>img {
+.footer-logo .logo {
+  font-size: 30px;
     max-height: 80px;
 }
 
