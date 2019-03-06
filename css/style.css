@@ -221,6 +221,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .navbar-brand .logo, .navbar-brand .logo-alt {
+    width: 100px;
     line-height: 50px;
     font-size: 30px;
     font-weight: bold;
@@ -230,6 +231,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .navbar-brand .logo {
     color: #000;
+    min-width: 200px;
 }
 
 #nav:not(.nav-transparent):not(.fixed-nav) .navbar-brand .logo-alt {
